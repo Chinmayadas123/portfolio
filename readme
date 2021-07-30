@@ -1,0 +1,24 @@
+Portfolio:-
+# first it display a basic intro page for login and registe .
+# if new user then click on register for registration. 
+# Then click login for login the portfolio system.
+# After successfully login it redierct to register the user details for portfolio.
+# if you have already registered then click on view your portfolio on navbar.
+# If you are not registered by click on view your portfolio on navbar it display an intro page or you can say a dommy page and click the register button of that page for jump to registration page.
+# otherwise register one by one i.e personal details ,skill,qualification.
+# After giving all details click on view your portfolio on navbar.
+# **  NOTE
+        * At the time of form filling please do not left any input field otherwise it doesnot submit
+# After successfully registration a portfolio website will generate featching all your details.
+# for downloading your resume in pdf format click on download your resume button
+# If you Want add project then click on add information on footer of the website.
+
+
+
+SQL File:
+    import the mysql file to database.
+    # If it shows an error to utf8mb4
+    then chamge the collate to utf8_general_ci
+    #After adding u can login the site by giving 
+    #username chinnu123@gmail.com
+    # password: 123456

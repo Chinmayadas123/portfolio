@@ -1,0 +1,210 @@
+@media (max-width: 1025px) {
+  .header {
+    background-image: url("../pic/b1.png");
+    height: 60vh;
+    background-position: 110%;
+    transition: all 0.4s ease-in-out;
+  }
+   .humb {
+      position: relative;
+    }
+    .humb span {
+      width: 3.2rem;
+      height: 4px;
+      display: block;
+      background: white;
+      margin: 0.42rem;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+    .humb.active span:nth-child(1) {
+      transform: rotate(45deg);
+      position: relative;
+      top: 4px;
+    }
+  
+    .humb.active span:nth-child(2) {
+      display: none;
+    }
+  
+    .humb.active span:nth-child(3) {
+      transform: rotate(-45deg);
+      position: relative;
+      top: -0.5rem;
+    }
+    #navbarSupportedContent ul {
+      text-align: center;
+    }
+  #toggle{
+    left:5%;
+  }
+  .baner-cont{
+    margin-top: 160px;
+    float: left;
+  }
+  .baner-btn{
+
+  }
+  .baner-cont p{
+
+  }
+  .image{
+    margin-left: 40px;
+  }
+  .btcont{
+    margin-left: 80px;
+    margin-top: 65px;
+  }
+  .btcont h4{
+    width: 38vw;
+  }
+  .contact-wrap{
+    height: 60vh;
+    transform: translateX(-10%);
+  }
+  .info-wrap{
+    height: 350px;
+    margin-top:320px;
+    transform: translateX(10%);
+  }
+}
+@media (max-width: 992px) {
+    body {
+      overflow-x: hidden;
+    }
+    .humb {
+      position: relative;
+    }
+    .humb span {
+      width: 3.2rem;
+      height: 4px;
+      display: block;
+      background: white;
+      margin: 0.42rem;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+    .humb.active span:nth-child(1) {
+      transform: rotate(45deg);
+      position: relative;
+      top: 4px;
+    }
+  
+    .humb.active span:nth-child(2) {
+      display: none;
+    }
+  
+    .humb.active span:nth-child(3) {
+      transform: rotate(-45deg);
+      position: relative;
+      top: -0.5rem;
+    }
+    #navbarSupportedContent ul {
+      text-align: center;
+    }
+}
+@media (max-width: 769px){
+  .header {
+    background-image: url("../pic/b1.png");
+    /* background-attachment: fixed; */
+    background-size: 70% 80%;
+    background-position: 140%;
+    height: 60vh;
+    transition: all 0.4s ease-in-out;
+  }
+  #toggle{
+    left:40%;
+  }
+  .baner-cont{
+    margin-top: 160px;
+    width: 100vw;
+  }
+  .baner-cont h3{
+    width: 100vw;
+    font-size: 45px;
+    margin-left: 0px;
+  }
+  .image{
+    margin-top: 190px;
+  }
+  #skill{
+    height: 700px;
+  }
+  #skill .container{
+    height: 500px;
+  }
+  .fbox{
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+  }
+}
+@media (max-width: 562px){
+  .header {
+    background-image:none;
+  }
+  .header.active{
+    background-image:none;
+  }
+  #toggle{
+    left:40%;
+  }
+  .baner-cont{
+    margin-top: 150px;
+    width: 100vw;
+    margin-left: 30px;
+  }
+  .baner-btn{
+    transform: translateX(0%);
+  }
+  .baner-cont p{
+    width: 100vw;
+    text-align: justify;
+      transform: translateX(0%);
+  }
+  #about{
+    height: 160vh;
+    margin-top: 60px;
+  }
+  .image{
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  #skill{
+    height: 170vh;
+  }
+  #skill .container{
+    height: 130vh;
+  }
+  .btcont{
+    margin-left: 0px;
+  }
+  .btcont h4{    
+    width: 100vw;
+  }
+  .btcont p{
+   width: 80vw;
+   margin-left: 0px;
+  }
+  .qual p{
+    width: 80vw;
+  }
+  .project-content{
+    margin-left: 50px;
+  }
+  .contact-wrap{
+    width: 90vw;
+    height: 80vh;
+    margin-left: 10px;
+  }
+  .info-wrap{
+    transform: translateX(0px);
+    margin-left: 10px;
+  }
+}
